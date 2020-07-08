@@ -79,24 +79,6 @@ NavMeshSettings:
     detailSampleMaxError: 1.000000
     accuratePlacement: 0
   m_NavMesh: {fileID: 0}
---- !u!1 &6
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  importerVersion: 3
-  m_Component:
-  - 4: {fileID: 8}
-  - 33: {fileID: 12}
-  - 65: {fileID: 13}
-  - 23: {fileID: 11}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &7
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,17 +98,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6}
-  m_LocalRotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-  m_LocalPosition: {x: -2.618721, y: 1.028581, z: 1.131627}
-  m_LocalScale: {x: 1.000000, y: 1.000000, z: 1.000000}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!4 &9
 Transform:
   m_ObjectHideFlags: 0
@@ -146,8 +117,8 @@ Camera:
   m_GameObject: {fileID: 7}
   m_Enabled: 1
   importerVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.192157, g: 0.301961, b: 0.474510, a: 0.019608}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1.0, g: 1.0, b: 1.0, a: 1.0}
   m_NormalizedViewPortRect:
     importerVersion: 2
     x: 0.000000
@@ -166,43 +137,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
---- !u!23 &11
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1.000000, y: 1.000000, z: 0.000000, w: 0.000000}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_LightProbeAnchor: {fileID: 0}
-  m_UseLightProbes: 0
-  m_ScaleInLightmap: 1.000000
---- !u!33 &12
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &13
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  importerVersion: 2
-  m_Size: {x: 1.000000, y: 1.000000, z: 1.000000}
-  m_Center: {x: 0.000000, y: 0.000000, z: 0.000000}
 --- !u!81 &14
 AudioListener:
   m_ObjectHideFlags: 0
