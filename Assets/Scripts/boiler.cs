@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class boiler : MonoBehaviour{
-  void Start(){}
+  private GameObject parent;
+  void Start(){
+    parent=gameObject.transform.parent.gameObject;
+  }
   void Update(){}
 }
