@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 003001}
   - component: {fileID: 003002}
   - component: {fileID: 003003}
-  - component: {fileID: 337563419}
+  - component: {fileID: 003004}
   m_Layer: 5
   m_Name: InputField
   m_TagString: Untagged
