@@ -4,7 +4,7 @@
 SerializedFile:
   m_TargetPlatform: 4294967294
   m_UserInformation: 
---- !u!29 &1
+--- !u!29 &999001
 Scene:
   m_ObjectHideFlags: 0
   m_PVSData: 
@@ -12,7 +12,7 @@ Scene:
   m_PVSObjectsArray: []
   m_PVSPortalsArray: []
   m_ViewCellSize: 1.000000
---- !u!104 &2
+--- !u!104 &999002
 RenderSettings:
   m_Fog: 0
   m_FogColor: {r: 0.500000, g: 0.500000, b: 0.500000, a: 1.000000}
@@ -27,10 +27,10 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 0}
   m_ObjectHideFlags: 0
---- !u!127 &3
+--- !u!127 &999003
 GameManager:
   m_ObjectHideFlags: 0
---- !u!157 &4
+--- !u!157 &999004
 LightmapSettings:
   m_ObjectHideFlags: 0
   m_LightProbeCloud: {fileID: 0}
@@ -58,7 +58,7 @@ LightmapSettings:
     m_AOContrast: 1.000000
     m_TextureCompression: 0
     m_LockAtlas: 0
---- !u!196 &5
+--- !u!196 &000005
 NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
@@ -79,18 +79,18 @@ NavMeshSettings:
     detailSampleMaxError: 1.000000
     accuratePlacement: 0
   m_NavMesh: {fileID: 0}
---- !u!1 &7
+--- !u!1 &001000
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   importerVersion: 3
   m_Component:
-  - 4: {fileID: 9}
-  - 20: {fileID: 10}
-  - 92: {fileID: 15}
-  - 124: {fileID: 16}
-  - 81: {fileID: 14}
+  - 4: {fileID: 001001}
+  - 20: {fileID: 001002}
+  - 81: {fileID: 001003}
+  - 92: {fileID: 001004}
+  - 124: {fileID: 001005}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -98,23 +98,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9
+--- !u!4 &001001
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
+  m_GameObject: {fileID: 001000}
   m_LocalRotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
   m_LocalPosition: {x: 0.000000, y: 1.000000, z: -10.000000}
   m_LocalScale: {x: 1.000000, y: 1.000000, z: 1.000000}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!20 &10
+--- !u!20 &001002
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
+  m_GameObject: {fileID: 001000}
   m_Enabled: 1
   importerVersion: 2
   m_ClearFlags: 2
@@ -137,28 +137,28 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
---- !u!81 &14
+--- !u!81 &001003
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
+  m_GameObject: {fileID: 001000}
   m_Enabled: 1
---- !u!92 &15
+--- !u!92 &001004
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
+  m_GameObject: {fileID: 001000}
   m_Enabled: 1
---- !u!124 &16
+--- !u!124 &001005
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7}
+  m_GameObject: {fileID: 001000}
   m_Enabled: 1
---- !u!1026 &17
+--- !u!1026 &999999
 HierarchyState:
   m_ObjectHideFlags: 0
   expanded: []
