@@ -5,23 +5,16 @@ using UnityEngine.UI;
 
 public class DisplayCommand : MonoBehaviour
 {
-  public GameObject addressText;
-  public GameObject addressToggle;
-  public int thisId;
+  public GameObject displayText;
+  public GameObject displayToggle;
+  public int id;
 
   public void setText(string newText){
-    Text thisText=addressText.GetComponent(typeof(Text)) as Text;
+    Text thisText=displayText.GetComponent(typeof(Text)) as Text;
     thisText.text=newText;
   }
-  public void setCheck(bool newValue){
-    Toggle toggle=addressToggle.GetComponent(typeof(Toggle)) as Toggle;
-    toggle.isOn=newValue;
-  }
-  public bool getCheck(){
-    Toggle toggle=addressToggle.GetComponent(typeof(Toggle)) as Toggle;
-    return toggle.isOn;
-  }
-  public void onClick(){
-    GLOBAL.selectedAddress=thisId;
+  public void setCheck(bool isOnIn){
+    Toggle toggle=displayToggle.GetComponent(typeof(Toggle)) as Toggle;
+    toggle.isOn=isOnIn;
   }
 }
