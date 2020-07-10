@@ -17,7 +17,7 @@ public class GLOBAL : MonoBehaviour
     }
   }
   public static List<BlockData> blockData;
-  public int id;
+  public static int id;
   void Start(){
     blockData=new List<BlockData>();
   }
