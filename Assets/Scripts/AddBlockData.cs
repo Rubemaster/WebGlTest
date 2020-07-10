@@ -13,7 +13,7 @@ public class AddBlockData : MonoBehaviour{
   private GLOBAL.BlockData getBlockDataById(int idIn){
     for(int i=0;i<GLOBAL.blockData.Count;i++){
       if(GLOBAL.blockData[i].id==idIn){
-        return return GLOBAL.blockData[i];
+        return GLOBAL.blockData[i];
       }
     }
     return new GLOBAL.BlockData(false,"N/A","Malfunction",-1);
