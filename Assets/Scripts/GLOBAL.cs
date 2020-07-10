@@ -8,10 +8,12 @@ public class GLOBAL : MonoBehaviour
     public bool active;
     public string host;
     public string value;
-    public BlockData(bool activeIn,string hostIn, string valueIn){
+    public int id;
+    public BlockData(bool activeIn,string hostIn, string valueIn,int idIn){
       active=activeIn;
       host=hostIn;
       value=valueIn;
+      id=idIn;
     }
   }
   public static List<BlockData> blockData;
