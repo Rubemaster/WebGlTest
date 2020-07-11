@@ -1401,7 +1401,7 @@ PrefabInstance:
     - target: {fileID: 000001001, guid: displayprefab000,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -100
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: displayprefab000, type: 3}
 --- !u!224 &017001 stripped
