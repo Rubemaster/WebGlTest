@@ -1,3 +1,5 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
 --- !u!1 &008000
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,7 +33,7 @@ RectTransform:
   - {fileID: 009001}
   - {fileID: 011001}
   - {fileID: 014001}
-  m_Father: {fileID: 002001}
+  m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
